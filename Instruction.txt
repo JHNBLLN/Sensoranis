@@ -5,3 +5,7 @@ Instruction to install and run the application.
 3. navigate to your file
 4. in terminal run npm install
 5. npm run dev and ctrl click to open a localhost
+
+admin account:
+email: admin@gmail.com
+password: Admin123!
