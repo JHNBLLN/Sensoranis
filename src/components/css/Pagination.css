@@ -1,0 +1,51 @@
+.pagination-container {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  font-size: larger;
+}
+
+.page-button,
+.prev-button,
+.next-button {
+  padding: 6px 12px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.page-button.active {
+  background: none;
+  color: rgb(70, 70, 238);
+  border: none;
+}
+
+.page-button.disabled,
+.prev-button.disabled,
+.next-button.disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+#arrow {
+  font-size: xx-large;
+}
+@media screen and (max-width: 720px) {
+  .pagination-container {
+    gap: 3px;
+    font-size: small;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .page-button,
+  .prev-button,
+  .next-button {
+    padding: 4px 8px;
+    font-size: 0.8rem;
+  }
+
+  #arrow {
+    font-size: large;
+  }
+}

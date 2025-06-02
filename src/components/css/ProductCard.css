@@ -1,0 +1,39 @@
+.card {
+  overflow: hidden;
+  position: relative;
+  min-width: 19.4%;
+  max-width: 19.4%;
+  text-decoration: none;
+  margin: 0.3%;
+  aspect-ratio: 6 / 9;
+  background-color: #1b1a1a;
+  color: white;
+}
+
+.card:hover {
+  z-index: 1;
+  transform: translateY(-4px);
+  transform: scale(1.04);
+  overflow: hidden;
+}
+.card-img-frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 70%;
+  max-height: 70%;
+  overflow: hidden;
+}
+
+.card-img-frame img {
+  height: auto;
+  width: 100%;
+}
+
+.card-body p {
+  margin: 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

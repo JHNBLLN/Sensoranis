@@ -1,0 +1,46 @@
+.delete-product-form {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(174, 238, 249, 0.1);
+  width: 350px;
+  margin: 0 auto;
+  gap: 1rem;
+}
+
+.delete-product-form p {
+  margin: 0;
+  font-size: 1rem;
+  color: #ccc;
+  text-align: center;
+}
+
+.delete-product-form button {
+  background-color: transparent;
+  border: 1px solid rgba(174, 238, 249, 1);
+  color: #e0e0e0;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  width: 100%;
+}
+
+.delete-product-form button:hover {
+  background-color: rgba(174, 238, 249, 1);
+  color: #000;
+}
+
+.delete-product-form button[type="button"] {
+  border-color: #ff6b6b;
+}
+
+.delete-product-form button[type="button"]:hover {
+  background-color: #ff6b6b;
+  color: #000;
+}

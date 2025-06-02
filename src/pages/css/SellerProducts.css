@@ -1,0 +1,95 @@
+.my-products-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr 1fr;
+  gap: 1rem;
+  background-color: #121212;
+  padding: 1.5rem;
+  border-radius: 12px;
+  color: #e0e0e0;
+  min-width: 90rem;
+  max-width: 90rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.product-form-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.747);
+}
+.add-btn-container {
+  margin-top: 5rem;
+  min-width: 90rem;
+  max-width: 90rem;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-right: 3rem;
+}
+.add-btn {
+  display: block;
+  background-color: transparent;
+  border: 2px solid rgba(174, 238, 249, 1);
+  color: #e0e0e0;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  padding: 1rem;
+}
+.add-btn:hover {
+  background-color: rgba(174, 238, 249, 1);
+  color: #000;
+}
+.cell {
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  border-bottom: 1px solid #333;
+}
+
+.cell.header {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgba(174, 238, 249, 1);
+  border-bottom: 2px solid rgba(174, 238, 249, 1);
+}
+
+.products-container-action-button {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.products-container-action-button button {
+  padding: 6px 14px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  min-width: 70px;
+}
+.edit-btn {
+  background-color: transparent;
+  border: 1.5px solid rgb(255, 238, 0);
+  color: #e0e0e0;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.edit-btn:hover {
+  background-color: rgb(255, 251, 0);
+  color: #000000;
+  border-color: rgb(0, 0, 0);
+}
+.delete-btn {
+  background-color: transparent;
+  border: 1.5px solid rgb(255, 6, 6);
+  color: #e0e0e0;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.delete-btn:hover {
+  background-color: rgb(255, 0, 0);
+  color: #ffffff;
+  border-color: rgb(0, 0, 0);
+}

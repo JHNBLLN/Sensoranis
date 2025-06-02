@@ -1,0 +1,144 @@
+.products-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 70rem;
+  max-width: 70rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  gap: 0.5rem;
+  color: white;
+}
+
+.page-header {
+  width: 75rem;
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slide-wrapper {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
+.poster-wrapper {
+  width: 100%;
+  width: 85rem;
+}
+
+.promo-poster {
+  width: 50vw;
+  object-fit: cover;
+  display: block;
+}
+
+.product-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.page-navigator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-navigator * {
+  display: flex;
+  list-style: none;
+  gap: 0.4rem;
+  margin: 0;
+  padding: 0.2rem;
+}
+
+.item-per-page-selector {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+  gap: 1rem;
+  color: white;
+  font-size: larger;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.item-per-page-selector * {
+  background: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: white;
+}
+
+.item-per-page-selector button:hover {
+  color: red;
+}
+
+.product-page-footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 720px) {
+  .products-main {
+    min-width: 100%;
+    max-width: 100%;
+    padding: 0 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .page-header {
+    width: 100%;
+    margin-top: 7rem;
+    padding: 0 1rem;
+  }
+
+  .promo-poster {
+    width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .item-per-page-selector {
+    justify-content: center;
+    font-size: medium;
+    margin: 1rem 0;
+  }
+
+  .product-container {
+    justify-content: center;
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .page-navigator {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .poster-wrapper {
+    width: 100%;
+  }
+
+  .product-page-footer {
+    margin-top: 2rem;
+    flex-direction: column;
+  }
+}

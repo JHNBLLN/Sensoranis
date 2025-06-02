@@ -1,0 +1,67 @@
+.product-edit-form {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(174, 238, 249, 0.1);
+  width: 350px;
+  margin: 0 auto;
+  gap: 1rem;
+}
+
+.product-edit-form input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #333;
+  padding: 12px;
+  font-size: 1rem;
+  color: #fff;
+  outline: none;
+  width: 100%;
+  transition: border-color 0.3s;
+}
+
+.product-edit-form input:focus {
+  border-color: rgba(174, 238, 249, 1);
+}
+
+.product-edit-form input:disabled {
+  color: #777;
+  border-color: #444;
+  cursor: not-allowed;
+}
+
+.product-edit-form button {
+  background-color: transparent;
+  border: 1px solid rgba(174, 238, 249, 1);
+  color: #e0e0e0;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  width: 100%;
+}
+
+.product-edit-form button:hover {
+  background-color: rgba(174, 238, 249, 1);
+  color: #000;
+}
+
+.product-edit-form button[type="button"] {
+  border-color: #ff6b6b;
+}
+
+.product-edit-form button[type="button"]:hover {
+  background-color: #ff6b6b;
+  color: #000;
+}
+
+.product-edit-form p {
+  font-size: 0.95rem;
+  text-align: center;
+  margin-top: 0.5rem;
+}
