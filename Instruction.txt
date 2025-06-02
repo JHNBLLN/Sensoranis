@@ -1,0 +1,7 @@
+Instruction to install and run the application.
+
+1. Create a folder to put your application
+2. Open terminal/command prompt on file path and git clone (name of the repository)
+3. navigate to your file
+4. in terminal run npm install
+5. npm run dev and ctrl click to open a localhost
